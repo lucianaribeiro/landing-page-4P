@@ -3,7 +3,7 @@
 
 ### Protótipo de Alta Fidelidade: 
 
-![](./src/assets/01.jpg)
-![](./src/assets/02.jpg)
-![](./src/assets/03.jpg)
-![](./src/assets/04.jpg)
+![](./src/assets/01.png)
+![](./src/assets/02.png)
+![](./src/assets/03.png)
+![](./src/assets/04.png)
