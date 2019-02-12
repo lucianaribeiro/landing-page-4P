@@ -7,9 +7,7 @@ class Frame2 extends Component{
     render(){
         return(
             <div className="container-home">
-                <img src={bg2} class="d-block w-100 img-fluid" alt="frame1" />
-                <div className="navbar-style">
-                </div>
+                <img src={bg2} class="d-block w-100 img-fluid" alt="frame2" />
             </div>
         );
     }

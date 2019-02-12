@@ -2,3 +2,10 @@ body{
     font-family: 'Nunito', sans-serif !important;
 }
 
+.container-img{
+    background-image: url("../imgs/01.png");
+    position: relative;
+    width: 100wh;
+    height: 100vh;
+    background-size: cover;
+}
