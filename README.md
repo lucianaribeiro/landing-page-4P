@@ -3,18 +3,21 @@
 
 ### Para Rodar o Projeto:
 
-    - Instalar npm 
-    - Clonar o repositório
-    - Instalar as dependências
+ 1. Instalar npm 
+ 2. Clonar o repositório
+ 3. Instalar as dependências
 
-    ```
-        npm install
-    ```
+```
+npm install
+```
+
 </br>
-    - Rodar o Projeto:
-    ```
-        npm start
-    ```
+
+ - Rodar o Projeto:
+    
+```
+npm start
+```
 </br>
 
 ### Protótipo de Alta Fidelidade: 
