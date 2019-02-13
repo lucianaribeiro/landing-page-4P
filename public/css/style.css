@@ -3,10 +3,10 @@ body{
 }
 
 .body-img{
-    background-image: url("../imgs/pg-inteira-2x.png");
+    background-image: url("../imgs/fundo-2x.png");
     position: relative;
     width: 100wh;
-    height: 450vh;
+    height: 500vh;
     background-size: cover;
 }
 
@@ -17,7 +17,6 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: crimson;
 }
 
 .frame2-img{
@@ -27,7 +26,6 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: teal;
 }
 
 .frame3-img{
@@ -37,5 +35,4 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
-    background-color: goldenrod;
 }
