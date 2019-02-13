@@ -1,0 +1,26 @@
+.bio-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+.cell-img{
+  width: 130%
+}
+
+.logo-title{
+  width: 30%;
+}
+
+.title-frame2{
+  margin-bottom: 3em;
+}
+
+.sub-content{
+  width: 50%;
+  font-weight: bold !important;
+}
+
+.sub-content span{
+  color: rgb(0, 121, 51);
+}

@@ -1,30 +1,25 @@
 .content-container{
-  position: absolute;
-  text-align: center;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center; 
+    
 }
 
 .title-content{
-    max-width: 50%;
     margin-bottom: 3em;
 }
 
 .subtitle-content{
-    max-width: 50%;
     margin-bottom: 2em;
     font-weight: bolder;
 }
 
 .start-btn img{
-    width: 17%; height: auto;
+    width: 40%; height: auto;
 }
 
 .content-text span{
     color: rgb(0, 121, 51);
     font-weight: 700;
+}
+
+.conjunto-img{
+    max-width: 70%;
 }
