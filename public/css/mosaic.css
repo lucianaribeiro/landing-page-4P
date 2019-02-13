@@ -1,3 +1,18 @@
-.mosaic-img{
-    width: 100%;
+.mosaic-title{
+    margin-bottom: 3em;
+    border-bottom: 4px solid white;
+}
+
+.mosaic-title h2 {
+    font-weight: 700;
+}
+
+.mosaic-sub span{
+    color: rgb(0, 121, 51);
+    font-weight: bold;
+    
+}
+
+.mosaic-sub p {
+    font-weight: bold;
 }

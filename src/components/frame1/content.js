@@ -9,7 +9,7 @@ class Content extends Component{
             <div className="">
                     <div className="row justify-content-around align-items-center">
                         <div className="col-8">
-                            <div class="content-text text-white font-weight-bold">
+                            <div class="content-text text-white">
                                     <div className="title-content">
                                         <h1 class="text-left">
                                             <span>Cuide</span> do seu <span>bichinho</span> com apenas alguns <span>cliques</span>

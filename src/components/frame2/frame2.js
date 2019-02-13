@@ -10,7 +10,7 @@ class Frame2 extends Component{
             <div className="container"> 
             <div className="frame2-img row justify-content-around">
                 <div className="col-4">
-                    <img src={cell} alt="cellphone" className="conjunto-img"/>
+                    <img src={cell} alt="cellphone" className="w-90"/>
                 </div>
                 <div className="col-4">
                     <Bio />

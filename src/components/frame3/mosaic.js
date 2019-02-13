@@ -8,7 +8,7 @@ class Mosaic extends Component{
         return(
             <div>
                 <div>
-                    <img src={mosaic} alt="shower" className="mosaic-img" />
+                    <img src={mosaic} alt="shower" className="w-100" />
                 </div>
             </div>
         );
