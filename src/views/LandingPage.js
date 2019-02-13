@@ -9,7 +9,7 @@ class LandingPage extends Component{
  
     render(){
         return(
-            <div>
+            <div className="body-img">
                 <Navbar />
                 <Frame1 />
                 <Frame2 />
