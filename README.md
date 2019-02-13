@@ -22,7 +22,4 @@ npm start
 
 ### Protótipo de Alta Fidelidade: 
 
-![](./src/assets/Completo/01.png)
-![](./src/assets/Completo/02.png)
-![](./src/assets/Completo/03.png)
-![](./src/assets/Completo/04.png)
+![](./src/assets/Completo/pg-inteira.png)
