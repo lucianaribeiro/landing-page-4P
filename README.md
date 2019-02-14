@@ -13,7 +13,7 @@ npm install
 
 </br>
 
- - Rodar o Projeto:
+ 4. Rodar o Projeto:
     
 ```
 npm start

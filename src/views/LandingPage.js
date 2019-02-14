@@ -12,25 +12,30 @@ class LandingPage extends Component{
     render(){
         return(
             <div>
-            <Navbar />
-            <Fullpage>
-            <FullPageSections>
-                <div className="body-img">
-                <FullpageSection style={{}}>
-                        <Frame1 />
-                </FullpageSection>
-                <FullpageSection style={{}}>
-                    <Frame2 />
-                </FullpageSection>
-                <FullpageSection style={{}}>
-                    <Frame3 />
-                </FullpageSection>
-                <FullpageSection style={{}}>
-                <Frame4 />
-                </FullpageSection>
-            </div>
-            </FullPageSections>
-            </Fullpage>
+                <Navbar />
+                <Fullpage>
+                    <FullPageSections>
+                        <div className="body-img">
+
+                            <FullpageSection>
+                                <Frame1 />
+                            </FullpageSection>
+
+                            <FullpageSection>
+                                <Frame2 />
+                            </FullpageSection>
+
+                            <FullpageSection>
+                                <Frame3 />
+                            </FullpageSection>
+
+                            <FullpageSection>
+                                <Frame4 />
+                            </FullpageSection>
+
+                        </div>
+                    </FullPageSections>
+                </Fullpage>
             </div>
         );
     }

@@ -10,7 +10,8 @@ class QrcodeContent extends Component{
                 </div>
                 <div className="qrcode-sub text-white text-justify">
                     <h4>Instale o nosso aplicativo no seu smartphone 
-                        para fazer parte desse mundo também! </h4>
+                        para fazer parte desse mundo também! 
+                    </h4>
 
                 </div>
             </div>

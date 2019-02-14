@@ -15,12 +15,12 @@ class Qrcode extends Component{
                 <div className="download-btn">
                     <div className="play-btn"> 
                         <a href="https://play.google.com/store">
-                        <img src={googlePlay} alt="qrcode" className="w-100" />
+                            <img src={googlePlay} alt="qrcode" className="w-100" />
                         </a>
                     </div>
                     <div className="app-btn">
                         <a href="https://www.apple.com/br/ios/app-store/"> 
-                        <img src={appStore} alt="qrcode" className="w-100" />
+                            <img src={appStore} alt="qrcode" className="w-100" />
                         </a>
                     </div>
                 </div>

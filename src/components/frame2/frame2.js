@@ -8,14 +8,14 @@ class Frame2 extends Component{
     render(){
         return(
             <div className="container"> 
-            <div className="frame2-img row justify-content-around">
-                <div className="col-4">
-                    <img src={cell} alt="cellphone" className="w-90"/>
+                <div className="frame2-img row justify-content-around">
+                    <div className="col-4">
+                        <img src={cell} alt="cellphone" className="w-90"/>
+                    </div>
+                    <div className="col-4">
+                        <Bio />
+                    </div>
                 </div>
-                <div className="col-4">
-                    <Bio />
-                </div>
-            </div>
             </div>
         );
     }
