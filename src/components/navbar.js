@@ -4,28 +4,6 @@ const logo = require("../assets/Icones/logo-branca.png");
 
 class Navbar extends Component{
 
-    constructor(props){
-        super(props);
-
-        this.state = {
-            isTop: true
-        };
-        this.onScroll = this.onScroll.bind(this);
-    }
-
-    componentDidMount(){
-        document.addEventListener('scroll', () =>{
-            const isTop = window.scrollY < 100;
-            if(isTop !== this.state.isTop) {
-                this.onScroll(isTop);
-            }
-        });
-    }
-
-    onScroll(isTop) {
-        this.setState({ isTop });
-    }
-
     render(){
         return(
             <div>
@@ -51,7 +29,7 @@ class Navbar extends Component{
                                     <li class="">
                                         <div class="vertical-line"></div>
                                     </li>
-                                    <li class="nav-item col-sm">
+                                    <li class="nav-item">
                                         <a class="nav-link text-white font-weight-bold" href="#!">ENTRAR</a>
                                     </li>                       
                                 </ul>

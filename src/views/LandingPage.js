@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Fullpage, { FullPageSections, FullpageSection } from '@ap.cx/react-fullpage'
+
 import Frame1 from '../components/frame1/frame1';
 import Frame2 from '../components/frame2/frame2';
 import Frame3 from '../components/frame3/frame3';
@@ -9,12 +11,26 @@ class LandingPage extends Component{
  
     render(){
         return(
-            <div className="body-img">
-                <Navbar />
-                <Frame1 />
-                <Frame2 />
-                <Frame3 />
+            <div>
+            <Navbar />
+            <Fullpage>
+            <FullPageSections>
+                <div className="body-img">
+                <FullpageSection style={{}}>
+                        <Frame1 />
+                </FullpageSection>
+                <FullpageSection style={{}}>
+                    <Frame2 />
+                </FullpageSection>
+                <FullpageSection style={{}}>
+                    <Frame3 />
+                </FullpageSection>
+                <FullpageSection style={{}}>
                 <Frame4 />
+                </FullpageSection>
+            </div>
+            </FullPageSections>
+            </Fullpage>
             </div>
         );
     }
