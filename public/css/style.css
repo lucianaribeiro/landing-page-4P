@@ -6,7 +6,7 @@ body{
     background-image: url("../imgs/fundo-2x.png");
     position: relative;
     width: 100wh;
-    height: 450vh;
+    height: 455vh;
     background-size: cover;
 }
 
@@ -26,6 +26,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-top: 12em;
 }
 
 .frame3-img{
@@ -35,4 +36,15 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-top: 3em;
+}
+
+.frame4-img{
+    width: 100wh;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5em;
 }

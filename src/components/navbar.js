@@ -4,6 +4,28 @@ const logo = require("../assets/Icones/logo-branca.png");
 
 class Navbar extends Component{
 
+    constructor(props){
+        super(props);
+
+        this.state = {
+            isTop: true
+        };
+        this.onScroll = this.onScroll.bind(this);
+    }
+
+    componentDidMount(){
+        document.addEventListener('scroll', () =>{
+            const isTop = window.scrollY < 100;
+            if(isTop !== this.state.isTop) {
+                this.onScroll(isTop);
+            }
+        });
+    }
+
+    onScroll(isTop) {
+        this.setState({ isTop });
+    }
+
     render(){
         return(
             <div>

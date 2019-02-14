@@ -1,0 +1,18 @@
+.qrcode-title{
+    margin-bottom: 3em;
+    border-bottom: 4px solid white;
+}
+
+.play-btn{
+    width: 80%;
+}
+
+.app-btn{
+    width: 100%;
+}
+
+.download-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
